@@ -10,7 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20170823213120) do
 
   create_table "music_genres", force: :cascade do |t|
@@ -18,15 +17,9 @@ ActiveRecord::Schema.define(version: 20170823213120) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
-=======
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20170823212937) do
 
   create_table "photo_booths", force: :cascade do |t|
-=======
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20170823212731) do
->>>>>>> 3f6f08039db81c569ae3d2ca5daaf6120f46e4e4
+
 
   create_table "pictures", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -36,18 +29,8 @@ ActiveRecord::Schema.define(version: 20170823212731) do
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
-<<<<<<< HEAD
-=======
-=======
-ActiveRecord::Schema.define(version: 20170823213120) do
 
-  create_table "music_genres", force: :cascade do |t|
-    t.string "name"
->>>>>>> a9a9fc61360417191af1758df932e1fe8b11be26
->>>>>>> 267216836ef8af23853ba625025703eed87d69eb
->>>>>>> 3f6f08039db81c569ae3d2ca5daaf6120f46e4e4
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
-
 end
