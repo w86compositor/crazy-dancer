@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20170823212731) do
 
   create_table "pictures", force: :cascade do |t|
@@ -20,6 +21,12 @@ ActiveRecord::Schema.define(version: 20170823212731) do
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
+=======
+ActiveRecord::Schema.define(version: 20170823213120) do
+
+  create_table "music_genres", force: :cascade do |t|
+    t.string "name"
+>>>>>>> a9a9fc61360417191af1758df932e1fe8b11be26
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
