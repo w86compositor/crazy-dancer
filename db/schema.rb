@@ -19,7 +19,9 @@ ActiveRecord::Schema.define(version: 20170823213120) do
   end
 
   create_table "photo_booths", force: :cascade do |t|
-
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "pictures", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -29,8 +31,8 @@ ActiveRecord::Schema.define(version: 20170823213120) do
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
-
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
 end
