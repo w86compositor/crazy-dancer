@@ -1,19 +1,7 @@
-<div class="home_buttons">
-      <%= link_to 'Log In', users_new_path, :class => 'login' %>
-      <%= link_to 'Sign up', users_new_path, :class => 'signup'%>
-</div>
-
-<!DOCTYPE html>
-<html>
-  <head>
-
-  </head>
-
-  <body>
-    <div class="container">
+<div class="container">
   <%= image_tag('logo') %>       <!-- Image goes here. Use CSS properties for "display: block; and margin: auto;" -->
   <!-- Bottom Padding for the image -->
-  <div class="form-main">
+<div class="form-main">
     <form>
       <div class="form-group">
         <label for="exampleInputEmail1"></label>
@@ -25,7 +13,7 @@
       </div>
       <button type="submit" class="btn btn-primary btn-lg">Sign In</button>
     </form>
-  <div class="row no-gutters">
+<div class="row no-gutters">
     <!-- <div class="col-md"><img src="logo.png" alt=""></div> -->
     </div>
   </div>
@@ -36,10 +24,8 @@
     <li class="list-inline-item">Forgot Password</li>
   </ul>
 </div>
-    <!-- <img src="https://quirkystepper.files.wordpress.com/2014/06/735_crazy_dance.jpg" class="img-fluid" alt="Responsive image">
-      <div class="">
-        <a href="http://localhost:3000/users/new" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Sign Up</a>
-        <a href="http://localhost:3000/users/new" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Log In</a>
-      </div>
-  </body>
-</html> -->
+
+<div class="home_buttons">
+      <%= link_to 'Log In', new_user_path, :class => 'login' %>
+      <%= link_to 'Sign up', new_user_path, :class => 'signup'%>
+</div>
