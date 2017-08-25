@@ -1,36 +1,6 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-body{
-  background-image: url("https://quirkystepper.files.wordpress.com/2014/06/735_crazy_dance.jpg");
-  background-repeat: no-repeat;
-
-}
-.home_buttons{
-    padding: 14px 75px;
-    background-color: navy;
-    margin-top: 455px;
-    border: none;
-    cursor: pointer;
-    width:inherit;
-}
-
-.signup{
-  background-color: lightblue;
-    padding: 14px 75px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: inherit;
-}
-
-
-.login{
-  background-color: pink;
-    color: white;
-    padding: 14px 75px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: inherit;
+img .img-fluid{
+  width: 100% \9;
 }
