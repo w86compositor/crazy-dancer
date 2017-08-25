@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
-  root 'home#show'
+  root 'users#show'
+
+  get 'home/show'
   
   resources :photobooths
   resources :pictures
