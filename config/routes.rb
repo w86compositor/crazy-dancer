@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  root 'home#show'
 
+  root 'home#show'
+  
   resources :photobooths
   resources :pictures
   resources :music_genres
