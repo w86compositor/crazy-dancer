@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   get 'pictures/new'
 
-  get 'new' => 'users#new'
+  get 'new' => 'users/new'
 
   get 'pictures' => 'pictures#show'
 

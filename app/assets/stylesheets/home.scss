@@ -4,3 +4,24 @@
 img .img-fluid{
   width: 100% \9;
 }
+
+body {
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-group {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.list-inline{
+  color: white;
+  padding-top: 15px;
+}
