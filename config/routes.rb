@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  root ''
+
   get 'pictures/show'
 
   get 'pictures/new'
