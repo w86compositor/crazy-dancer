@@ -1,16 +1,10 @@
 Rails.application.routes.draw do
   root 'home#show'
 
-  get 'pictures/show'
-
-  get 'pictures/new'
-
-  get 'users/new'
-
-
   resources :photobooths
   resources :pictures
   resources :music_genres
+  resources :users
 
 
 
