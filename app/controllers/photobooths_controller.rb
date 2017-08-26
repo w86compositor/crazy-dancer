@@ -1,4 +1,5 @@
 class PhotoboothsController < ApplicationController
+  before_action :authenticate_user!
   def index
     @photo_booths = PhotoBooth.all
   end

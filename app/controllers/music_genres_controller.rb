@@ -1,4 +1,5 @@
 class MusicGenresController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_music_genre, only: [:show, :edit, :update, :destroy]
 
   # GET /music_genres
