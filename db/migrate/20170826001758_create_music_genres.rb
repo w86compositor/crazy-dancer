@@ -1,7 +1,7 @@
 class CreateMusicGenres < ActiveRecord::Migration[5.1]
   def change
     create_table :music_genres do |t|
-      t.string :name
+      t.string :style
 
       t.timestamps
     end
